@@ -1,0 +1,166 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: Montserrat, serif;
+    background-color: #E5E5CB;
+}
+
+h1 {
+    color: #1A120B;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #1A120B;
+    font-size: 2.5rem;
+    font-family: Alice, sans-serif;
+    font-weight: normal;
+    padding: 10px;
+}
+
+h3 {
+    color: #362212;
+    font-family: Alice, sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #D5CEA3;
+    font-family: Montserrat, serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* mali 
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 3.5%;
+    border-top-color: #b9bebe;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+*/
+
+/* class targets */
+
+.top-container {
+    background-color: #D5CEA3;
+    position: relative;
+    padding-top: 100px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+}
+
+.skills-gif {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.dtablet-png {
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    width: 10%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    width: 10%;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.btn {
+    background: #664629;
+    background-image: -webkit-linear-gradient(top, #664629, #1A120B);
+    background-image: -moz-linear-gradient(top, #664629, #1A120B);
+    background-image: -ms-linear-gradient(top, #664629, #1A120B);
+    background-image: -o-linear-gradient(top, #664629, #1A120B);
+    background-image: linear-gradient(to bottom, #664629, #1A120B);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #855c47;
+    background-image: -webkit-linear-gradient(top, #855c47, #492f22);
+    background-image: -moz-linear-gradient(top, #855c47, #492f22);
+    background-image: -ms-linear-gradient(top, #855c47, #492f22);
+    background-image: -o-linear-gradient(top, #855c47, #492f22);
+    background-image: linear-gradient(to bottom, #855c47, #492f22);
+    text-decoration: none;
+  }
+
+/* mali
+.bottom-container {
+    background-color: #66BFBF;
+    height: 200px;
+    margin: 0;
+    margin-top: 30px;
+}
+*/
+
+.bottom-container {
+    background-color: #3C2A21;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
